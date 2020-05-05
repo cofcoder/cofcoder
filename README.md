@@ -1,6 +1,6 @@
 # cofcoder
 
-> Hi! I&amp;#39;m CofCoder, a front end web developer based in Wiltshire. I depend on Coffee to Code. Yes! I&amp;#39;m addicted to coffee and code!
+> Hi! I'm CofCoder, a front end web developer based in Wiltshire. I depend on Coffee to Code. Yes! I'm addicted to coffee and code!
 
 ## Build Setup
 
