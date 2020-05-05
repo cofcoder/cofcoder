@@ -31,12 +31,29 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/node_modules/uikit/dist/css/uikit.min.css',
+    '@/assets/css/custom.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    {
+      src: '~/plugins/uikit',
+      ssr: false
+    }
   ],
+  /*
+  ** Loaders
+  */
+  loaders: {
+    vue: {
+      transformAssetUrls: {
+        img: 'data-src',
+        div: 'data-src'
+      }
+    }
+  },
   /*
   ** Nuxt.js dev-modules
   */
