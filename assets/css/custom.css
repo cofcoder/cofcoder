@@ -1,1 +1,28 @@
 /* Custom styles for CofCoder */
+
+/* --root variables */
+--root {
+  --main: {
+    color: #00ACFF;
+  }
+  --base: {
+    color: #59DDFF;
+  }
+  --accent1: {
+    color: #FF0066;
+  }
+  --accent2: {
+    color: #FFCB00;
+  }
+  --dark: {
+    color: #010033;
+  }
+  --white: {
+    color: #FFFFFF;
+  }
+}
+
+/* html overrides */
+html {
+
+}
