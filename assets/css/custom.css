@@ -1,7 +1,7 @@
 /* Custom styles for CofCoder */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Root variables */
-:root {
+--root {
   --main: {
     color: #00acff;
   }
@@ -22,11 +22,37 @@
   }
 }
 
+/* Font overrides 
+*  Hacked font by David Libeau
+*  https://hackedfont.com/
+*/
+@font-face {
+  font-family: Hacked;
+  src: url(~assets/fonts/HACKED.ttf);
+  display: swap;
+}
+
 /* html overrides */
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background: var(--main, #00acff);
-  color: var(--dark, #010033);
+html,body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--main, #00acff)!important;
+  color: var(--dark, #010033)!important;
+}
+
+/* H tags overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Hacked;
+  color: var(--dark, #010033)!important;
+}
+
+h1 {
+font-size: 3rem;
+}
+
+h1.uk-h1-white{
+  color: var(--white, #FFFFFF)!important;
+}
+
+h1.uk-h1-accent1{
+  color: var(--accent1, #ff0066)!important;
 }
