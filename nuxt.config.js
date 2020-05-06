@@ -20,8 +20,7 @@ export default {
   ** Remove before build and production
   */
   server: {
-    port: '3000',
-    host: '192.168.1.240'
+    host: '0'
   },
   /*
   ** Customize the progress-bar color
