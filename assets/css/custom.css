@@ -1,41 +1,32 @@
 /* Custom styles for CofCoder */
 
-/* --root variables */
---root {
+/* Root variables */
+:root {
   --main: {
-    color: #00ACFF;
+    color: #00acff;
   }
   --base: {
-    color: #59DDFF;
+    color: #59ddff;
   }
   --accent1: {
-    color: #FF0066;
+    color: #ff0066;
   }
   --accent2: {
-    color: #FFCB00;
+    color: #ffcb00;
   }
   --dark: {
     color: #010033;
   }
   --white: {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
 /* html overrides */
 html {
-  font-family: -apple-system,
-  BlinkMacSystemFont,
-  "Segoe UI",
-  Roboto,
-  "Helvetica Neue",
-  Arial,
-  "Noto Sans",
-  sans-serif,
-  "Apple Color Emoji",
-  "Segoe UI Emoji",
-  "Segoe UI Symbol",
-  "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background: var(--main, #00acff);
-  color: var(--white, #ffffff);
+  color: var(--dark, #010033);
 }
