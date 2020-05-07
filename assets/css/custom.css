@@ -56,3 +56,20 @@ h1.uk-h1-white{
 h1.uk-h1-accent1{
   color: var(--accent1, #ff0066)!important;
 }
+
+/* Custom Navbar */
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: var(--main, #00acff)!important;
+  color: var(--accent1, #ff0066)!important;
+}
+span.uk-icon.uk-navbar-toggle-icon {
+  color: var(--white, #FFFFFF);
+}
+span.uk-icon.uk-navbar-toggle-icon:hover {
+  color: var(--dark, #010033);
+}
+@media screen and (max-width: 600px) {
+  .uk-logo {
+    width: 200px;
+  }
+}
